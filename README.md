@@ -1,3 +1,4 @@
+<pre>
 <?php
 /*
  * MarketPress Hitachi Shipping Plugin
@@ -338,4 +339,5 @@ class MP_Hitachi_Shipping extends MP_Shipping_API {
 
 //MP_Shipping_API::register_plugin( 'MP_Hitachi_Shipping', 'hitachi', __( 'Delivery', 'mp' ), true );
 
-
+?>
+</pre>
