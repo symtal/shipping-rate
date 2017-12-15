@@ -251,17 +251,13 @@ class MP_Hitachi_Shipping extends MP_Shipping_API {
 
 		if ( $selected_option ) {
 		
-			echo '<pre>';
 			print_r( $selected_option );
-			echo '</pre>';
 			
 		}
 
 		$settings = mp_get_setting('shipping');
 		
-		echo '<pre>';
 		print_r( $settings );
-		echo '</pre>';
 		
 		
 		$fee	=	0;
